@@ -44,6 +44,8 @@
 
 #include "src/parser/transform/statement/transform_rename.cpp"
 
+#include "src/parser/transform/statement/transform_secret.cpp"
+
 #include "src/parser/transform/statement/transform_select.cpp"
 
 #include "src/parser/transform/statement/transform_select_node.cpp"

@@ -18,6 +18,8 @@
 
 #include "src/execution/physical_plan/plan_create_table.cpp"
 
+#include "src/execution/physical_plan/plan_create_secret.cpp"
+
 #include "src/execution/physical_plan/plan_cross_product.cpp"
 
 #include "src/execution/physical_plan/plan_delete.cpp"

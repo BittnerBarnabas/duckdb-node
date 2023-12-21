@@ -2,7 +2,7 @@
   "name": "duckdb-dev",
   "main": "./lib/duckdb.js",
   "types": "./lib/duckdb.d.ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "DuckDB node.js API - latest dev version",
   "gypfile": true,
   "dependencies": {
@@ -12,7 +12,8 @@
   },
   "binary": {
     "module_name": "duckdb",
-    "module_path": "./lib/binding/"
+    "module_path": "./lib/binding/",
+    "host": "nothing"
   },
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build",

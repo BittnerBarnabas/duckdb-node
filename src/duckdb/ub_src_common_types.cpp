@@ -22,6 +22,8 @@
 
 #include "src/common/types/hugeint.cpp"
 
+#include "src/common/types/uhugeint.cpp"
+
 #include "src/common/types/uuid.cpp"
 
 #include "src/common/types/hyperloglog.cpp"
